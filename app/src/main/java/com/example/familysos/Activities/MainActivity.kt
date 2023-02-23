@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.nav_guard -> inflateFragment(GuardFragment.newInstance())
                 R.id.nav_profile -> inflateFragment(ProfileFragment.newInstance())
             }
+            
             true
         }
     }
