@@ -24,9 +24,10 @@ class MainActivity : AppCompatActivity() {
                 R.id.nav_guard -> inflateFragment(GuardFragment.newInstance())
                 R.id.nav_profile -> inflateFragment(ProfileFragment.newInstance())
             }
-            
+
             true
         }
+        bottomBar.selectedItemId  = R.id.nav_home
     }
 
     private fun inflateFragment(newInstance: Fragment) {
